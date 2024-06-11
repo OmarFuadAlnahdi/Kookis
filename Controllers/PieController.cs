@@ -16,13 +16,10 @@ namespace Kookis.Controllers
             
         }
 
-        public IActionResult List()
-            
+        public IActionResult List()   
         {
-           
-
             PiesListViewModel piesListViewModel = new PiesListViewModel
-              (_pieRepository.AllPies,"fruit cake","For employees");
+              (_pieRepository.AllPies);
             return View(piesListViewModel);
         }
 
