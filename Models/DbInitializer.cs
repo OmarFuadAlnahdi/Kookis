@@ -1,10 +1,12 @@
 ﻿namespace Kookis.Models
 {
-    public class DbInitializer
+    public static class DbInitializer
     {
             public static void Seed(IApplicationBuilder applicationBuilder)
             {
-                KookisDbContext context = applicationBuilder.ApplicationServices.CreateScope().ServiceProvider.GetRequiredService<KookisDbContext>();
+                KookisDbContext context = 
+                applicationBuilder.ApplicationServices.CreateScope
+                ().ServiceProvider.GetRequiredService<KookisDbContext>();
 
                 if (!context.Categories.Any())
                 {
