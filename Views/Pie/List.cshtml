@@ -1,20 +1,5 @@
 ﻿@model Kookis.ViewModels.PiesListViewModel;
 
-
-<h1>Start form here -></h1>
-@foreach(var pie2 in Model.Pies)
-{
-        @if (pie2.Name != null)
-        {
-            <h2>null</h2>
-        }
-
-    }
-
-
-
-
-
 <div class="row row-cols-1 row-cols-md-3 g-4">
 
     @foreach (var pie in Model.Pies)
