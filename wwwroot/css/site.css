@@ -403,7 +403,7 @@ fieldset {
     margin: 0;
     border: 0;
 }
-
+nav-item
 legend {
     float: left;
     width: 100%;
@@ -11775,14 +11775,14 @@ h6, .h6 {
     font-weight: 600;
     font-size: 16px;
     text-transform: uppercase;
-    color: #E5E5E5;
+    color: #000000;
 }
 
 .nav-item {
     font-weight: 600;
     font-size: 16px;
     text-transform: uppercase;
-    color: #E5E5E5;
+    color: #000000;
     margin-left: 20px;
 }
 
@@ -11792,11 +11792,11 @@ h6, .h6 {
     }
 
     .nav-item .dropdown-item:hover, .nav-item .dropdown-item:focus {
-        color: #C87D52;
+        color: #000000;
     }
 
     .nav-item.dropdown li {
-        background-color: #C87D52;
+        background-color: #000000;
         font-weight: 600;
         font-size: 16px;
         text-transform: uppercase;
@@ -11804,7 +11804,7 @@ h6, .h6 {
     }
 
         .nav-item.dropdown li > a {
-            color: #E5E5E5;
+            color: #000000;
         }
 
 .carousel-indicators {

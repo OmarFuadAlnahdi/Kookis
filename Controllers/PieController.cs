@@ -19,7 +19,7 @@ namespace Kookis.Controllers
         public IActionResult List()   
         {
             PiesListViewModel piesListViewModel = new PiesListViewModel
-              (_pieRepository.AllPies,"Cheese cake");
+              (_pieRepository.AllPies,"All Pies");
          return View(piesListViewModel);
 
         }
