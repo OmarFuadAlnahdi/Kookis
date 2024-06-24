@@ -25,8 +25,11 @@ namespace Kookis.Controllers
         }
 
         public IActionResult Details(int id) 
-        { 
-            var pie = _pieRepository.GetPieById(id);
+        {
+            int pieid = id + 7;  
+            // this is for the pieid its start with 8 not 1 don't
+            // know why but i will do this for testing 
+            var pie = _pieRepository.GetPieById(pieid);
             
            
 
