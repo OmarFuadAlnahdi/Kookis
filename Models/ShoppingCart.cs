@@ -30,9 +30,10 @@ namespace Kookis.Models
 
             public void AddToCart(Pie pie)
             {
-                var shoppingCartItem =
-                        _KookisPieShopDbContext.ShoppingCartItems.SingleOrDefault(
-                            s => s.Pie.PieId == pie.PieId && s.ShoppingCartId == ShoppingCartId);
+            var shoppingCartItem =
+                    _KookisPieShopDbContext.ShoppingCartItems.SingleOrDefault
+                    (s => s.Pie.PieId == pie.PieId && s.ShoppingCartId ==
+                    ShoppingCartId);
 
                 if (shoppingCartItem == null)
                 {
