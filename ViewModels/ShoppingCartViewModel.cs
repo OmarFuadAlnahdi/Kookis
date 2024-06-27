@@ -2,9 +2,9 @@
 
 namespace Kookis.ViewModels
 {
-    public class ShoppingCardViewModel
+    public class ShoppingCartViewModel
     {
-        public ShoppingCardViewModel(IShoppingCart shoppingCart, decimal shoppingCartTotal) 
+        public ShoppingCartViewModel(IShoppingCart shoppingCart, decimal shoppingCartTotal) 
         {
             ShoppingCart = shoppingCart;
             ShoppingCartTotal = shoppingCartTotal;

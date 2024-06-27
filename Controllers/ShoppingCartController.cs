@@ -20,7 +20,7 @@ namespace Kookis.Controllers
             var items = _shoppingCart.GetShoppingCartItems();
             _shoppingCart.ShoppingCartItems = items;
 
-            var shopingCartViewModel = new ShoppingCardViewModel(_shoppingCart,
+            var shopingCartViewModel = new ShoppingCartViewModel(_shoppingCart,
                 _shoppingCart.GetShoppingCartTotal());
 
             return View(shopingCartViewModel);
