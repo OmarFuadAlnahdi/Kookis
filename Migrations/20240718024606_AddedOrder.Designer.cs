@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Kookis.Migrations
 {
     [DbContext(typeof(KookisDbContext))]
-    [Migration("20240717033016_OrderAdded")]
-    partial class OrderAdded
+    [Migration("20240718024606_AddedOrder")]
+    partial class AddedOrder
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
