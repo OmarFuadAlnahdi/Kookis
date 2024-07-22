@@ -14,10 +14,38 @@ namespace Kookis.Controllers
             _shoppingCart = shoppingCart;
         }
 
-        public IActionResult Checkout() 
+        public IActionResult Checkout() //GET
         { 
             return View();
         
+        }
+        [HttpPost]
+        public IActionResult Checkout(Order order) 
+        {
+            var items = _shoppingCart.GetShoppingCartItems();
+            _shoppingCart.ShoppingCartItems = items;
+
+            if(_shoppingCart.ShoppingCartItems.Count == 0) 
+            {
+                ModelState.AddModelError("", "Your Cart Is Empty please Add Some Fruit First!");
+            
+            }
+
+            if (ModelState.IsValid) 
+            { 
+                _orderRepository.CreateOrder(order);
+                _shoppingCart.ClearCart();
+                return RedirectToAction("CheckoutComplete");
+            }
+
+            return View(order);
+        
+        }
+
+        public IActionResult CheckoutComplete() 
+        {
+            ViewBag.CheckoutCompleteMessage = "thank you soo much i hope u enjoy with it see again soon! ";
+            return View();
         }
     }
 }

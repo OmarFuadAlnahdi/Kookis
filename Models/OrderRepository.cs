@@ -32,8 +32,9 @@
                 };
 
                 order.OrderDetails.Add(orderDetail);
+                _kookisDbcontext.SaveChanges();
             }
-
+            
             _kookisDbcontext.Orders.Add(order);
 
             _kookisDbcontext.SaveChanges();
