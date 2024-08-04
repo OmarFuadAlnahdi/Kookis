@@ -1,6 +1,6 @@
 ﻿namespace Kookis.Models
 {
-    public class CategoryRepository : ICategoryRepsitory
+    public class CategoryRepository : ICategoryRepository
     {
         private readonly KookisDbContext _kookisDbContext;
         

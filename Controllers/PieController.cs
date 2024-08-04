@@ -7,9 +7,9 @@ namespace Kookis.Controllers
     public class PieController : Controller
     {
        private readonly IPieRepository _pieRepository;
-       private readonly ICategoryRepsitory _categoryRepository;
+       private readonly ICategoryRepository _categoryRepository;
 
-       public PieController (IPieRepository pieRepository, ICategoryRepsitory categoryRepository) 
+       public PieController (IPieRepository pieRepository, ICategoryRepository categoryRepository) 
         { 
             _pieRepository = pieRepository;
             _categoryRepository = categoryRepository;

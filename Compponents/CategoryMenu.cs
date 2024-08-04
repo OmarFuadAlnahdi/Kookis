@@ -6,9 +6,9 @@ namespace Kookis.Compponents
 
     public class CategoryMenu : ViewComponent
     {
-        private readonly ICategoryRepsitory _categoryRepsitory;
+        private readonly ICategoryRepository _categoryRepsitory;
 
-        public CategoryMenu(ICategoryRepsitory categoryRepsitory)
+        public CategoryMenu(ICategoryRepository categoryRepsitory)
         {
             _categoryRepsitory = categoryRepsitory;
         }

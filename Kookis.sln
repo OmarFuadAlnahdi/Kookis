@@ -5,7 +5,7 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kookis", "Kookis.csproj", "{EDAF0A9A-B61A-4BAA-AC2C-E1D691B46138}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KookisTests", "..\KookisTests\KookisTests.csproj", "{2F2E02EF-27F7-4459-99D3-4D29829EC08D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KookisTest", "..\KookisTest\KookisTest.csproj", "{5E082DD6-A0C2-42E4-ACA7-E4D71E6EE9E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{EDAF0A9A-B61A-4BAA-AC2C-E1D691B46138}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDAF0A9A-B61A-4BAA-AC2C-E1D691B46138}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDAF0A9A-B61A-4BAA-AC2C-E1D691B46138}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2F2E02EF-27F7-4459-99D3-4D29829EC08D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2F2E02EF-27F7-4459-99D3-4D29829EC08D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2F2E02EF-27F7-4459-99D3-4D29829EC08D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2F2E02EF-27F7-4459-99D3-4D29829EC08D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E082DD6-A0C2-42E4-ACA7-E4D71E6EE9E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E082DD6-A0C2-42E4-ACA7-E4D71E6EE9E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E082DD6-A0C2-42E4-ACA7-E4D71E6EE9E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E082DD6-A0C2-42E4-ACA7-E4D71E6EE9E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

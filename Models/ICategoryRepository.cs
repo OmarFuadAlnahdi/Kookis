@@ -1,6 +1,6 @@
 ﻿namespace Kookis.Models
 {
-    public interface ICategoryRepsitory
+    public interface ICategoryRepository
     {
         IEnumerable<Category> AllCategories { get; }
     }
